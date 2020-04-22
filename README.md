@@ -9,5 +9,6 @@ Regular expression for email using java spring boot
 
 `   @NotEmpty(message = "Email field should not be empty")
     @Email(regexp = "^(.+)@(.+)$", message = "Invalid email pattern")
+    
     private String email;
 `
